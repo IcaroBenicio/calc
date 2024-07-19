@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 25, 25); 
+}
+.conteiner_externo{
+    height: 530px;
+    width: 505px;
+    border: .5px solid black;
+    background-color: rgb(26, 25, 25);
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.conteiner_interno{
+    display: flex;
+    gap:3px;
+    width: 515px;
+    flex-wrap: wrap;
+    padding: 5px;
+   
+    
+}
+.resposta{
+  
+    width: 494px;
+    height: 150px;
+    background-color: rgb(67, 67, 67);
+    border: .5px solid black;
+    color: rgba(255, 255, 255, 0.712);
+    border-radius: 10px;
+    font-size: 4em;
+    
+}
+.resposta > p {
+    line-height: 150px;
+    text-align: right;
+    margin-right: 25px;
+}
+.botao{
+    width: 120px;
+    height: 70px;
+    font-size: 1.1em;
+    background-color: rgb(131, 128, 128);
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.712);
+    border: .5px solid black;
+    border-radius: 3px;
+}
+.botao:hover{
+    background-color: rgb(87, 85, 85);
+}
+.escuro{
+    background-color: rgb(87, 85, 85);
+}
+.escuro:hover{
+    background-color: rgb(131, 128, 128);
+}
+.igualdade{
+    background-color: rgb(200, 195, 195);
+    color: black;
+}
